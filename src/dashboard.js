@@ -4,7 +4,7 @@ import './custom.css';
 import { useSwipeable } from 'react-swipeable';
 
 function Dashboard() {
-  const [avatar, setAvatar] = useState('/mock-avatar.jpg');
+  const [avatar, setAvatar] = useState('/soij.jpg');
   const [profiles, setProfiles] = useState([]);
   const [user, setUser] = useState('Demo User');
   const [swipeDirection, setSwipeDirection] = useState(null);
@@ -21,7 +21,7 @@ function Dashboard() {
     // Заглушка: мок-профили
     const mockProfiles = [
       {
-        avatar: '/mock-profile-1.jpg',
+        avatar: '/soijak.png',
         profile: {
           fullName: 'Alice',
           age: 25,
@@ -30,7 +30,7 @@ function Dashboard() {
         }
       },
       {
-        avatar: '/mock-profile-2.jpg',
+        avatar: '/soij.jpg',
         profile: {
           fullName: 'Bob',
           age: 30,
